@@ -1,5 +1,4 @@
-import email
-from time import timezone
+
 from .database import Base
 from sqlalchemy import Column, Integer, String, Boolean, TIMESTAMP, ForeignKey
 from sqlalchemy.orm import relationship

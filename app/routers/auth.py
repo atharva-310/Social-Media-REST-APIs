@@ -1,4 +1,4 @@
-from doctest import Example
+
 from fastapi import APIRouter, Depends, HTTPException,status
 from .. import schemas,models,utils,oauth2
 from ..database import get_db
